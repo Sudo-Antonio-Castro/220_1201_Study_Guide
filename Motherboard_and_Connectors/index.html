@@ -442,6 +442,7 @@
       flex-wrap:wrap;
       align-items:center;
       padding:18px 20px;
+      border-bottom:1px solid var(--border);
     }
     .group{
       display:flex;
@@ -571,6 +572,21 @@
     </div>
 
     <article class="panel" aria-label="Study content">
+
+      <div class="bar" aria-label="Navigation">
+        <div class="group">
+          <button class="btn" onclick="goHome()">Return Home</button>
+          <button class="btn" id="prevBtn" onclick="prevCard()">◀ Previous</button>
+          <button class="btn" id="nextBtn" onclick="nextCard()">Next ▶</button>
+          <span id="counter">1 / 21</span>
+        </div>
+        <div class="group">
+          <button class="btn" onclick="window.print()">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V2h12v7H6zm10-5H8v3h8V4zM6 22v-5h12v5H6zm2-3v1h8v-1H8zm-4-9h20v8h-4v-3H4v3H0v-8h4z"/></svg>
+            Print
+          </button>
+        </div>
+      </div>
 
       <div class="module-tabs" role="tablist">
         <button class="module-tab active" onclick="switchModule('cables',this)">Connections &amp; Ports</button>
@@ -1304,21 +1320,6 @@
       </div>
 
     </article>
-
-    <div class="panel bar" aria-label="Navigation">
-      <div class="group">
-        <button class="btn" onclick="goHome()">Return Home</button>
-        <button class="btn" id="prevBtn" onclick="prevCard()">◀ Previous</button>
-        <button class="btn" id="nextBtn" onclick="nextCard()">Next ▶</button>
-        <span id="counter">1 / 21</span>
-      </div>
-      <div class="group">
-        <button class="btn" onclick="window.print()">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V2h12v7H6zm10-5H8v3h8V4zM6 22v-5h12v5H6zm2-3v1h8v-1H8zm-4-9h20v8h-4v-3H4v3H0v-8h4z"/></svg>
-          Print
-        </button>
-      </div>
-    </div>
   </div>
 </main>
 
