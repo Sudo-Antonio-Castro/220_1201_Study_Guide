@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>CompTIA A+ 220-1201 — Module: Motherboards &amp; Connectors</title>
-  <meta name="description" content="CompTIA A+ 220-1201 Module: Installing Motherboards and Connectors — Cables, Displays, USB, SATA, PCIe, Form Factors, and Legacy Interfaces." />
+  <title>CompTIA A+ 220-1201 — Motherboards &amp; Connectors</title>
+  <meta name="description" content="CompTIA A+ 220-1201 study module covering motherboards, connectors, ports, storage interfaces, displays, PCIe, form factors, and legacy interfaces." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -55,7 +55,6 @@
       outline-offset:2px;
     }
 
-    /* Header */
     header{
       position:sticky;
       top:0;
@@ -146,7 +145,6 @@
       fill:currentColor;
     }
 
-    /* Hero */
     .hero{
       max-width:var(--max);
       margin:0 auto;
@@ -189,7 +187,6 @@
       line-height:1.75;
     }
 
-    /* Main layout */
     .wrap{
       max-width:var(--max);
       margin:0 auto;
@@ -205,7 +202,6 @@
       box-shadow:var(--shadow);
     }
 
-    /* Section label */
     .section-label{
       display:flex;
       align-items:center;
@@ -226,7 +222,6 @@
       background:var(--border);
     }
 
-    /* Module tabs */
     .module-tabs{
       display:flex;
       gap:22px;
@@ -255,7 +250,6 @@
       border-bottom-color:var(--accent);
     }
 
-    /* Section tabs */
     .section-tabs{
       display:flex;
       flex-wrap:wrap;
@@ -290,7 +284,6 @@
       background:var(--accent);
     }
 
-    /* Content */
     .content{
       padding:30px 24px 32px;
     }
@@ -334,7 +327,6 @@
     }
     .content em{font-style:italic;}
 
-    /* Pills / steps */
     .steps{
       display:flex;
       flex-wrap:wrap;
@@ -353,7 +345,6 @@
       white-space:nowrap;
     }
 
-    /* Callouts */
     .exam-tip,
     .summary,
     .mini-card{
@@ -382,7 +373,6 @@
       max-width:none;
     }
 
-    /* Tables */
     .ref-table{
       width:100%;
       border-collapse:collapse;
@@ -416,7 +406,6 @@
       color:var(--text);
     }
 
-    /* Two-column cards */
     .two-col{
       display:grid;
       grid-template-columns:1fr 1fr;
@@ -424,7 +413,6 @@
       margin:16px 0 10px;
     }
 
-    /* Cause list */
     .cause-list{
       list-style:none;
       padding:0;
@@ -447,106 +435,6 @@
       color:var(--muted);
     }
 
-    /* Audio panel */
-    .audio-panel{
-      display:flex;
-      align-items:center;
-      gap:18px;
-      padding:18px 20px;
-      flex-wrap:wrap;
-    }
-    .audio-track-info{
-      display:flex;
-      flex-direction:column;
-      gap:2px;
-      min-width:180px;
-    }
-    .audio-track-label{
-      font-size:13px;
-      font-weight:600;
-      color:var(--text);
-      white-space:nowrap;
-      overflow:hidden;
-      text-overflow:ellipsis;
-      max-width:240px;
-    }
-    .audio-track-sub{
-      font-size:11px;
-      color:var(--muted);
-      letter-spacing:.04em;
-      text-transform:uppercase;
-    }
-    .audio-controls{
-      display:flex;
-      align-items:center;
-      gap:12px;
-      flex:1;
-      min-width:220px;
-    }
-    .play-btn{
-      width:34px;
-      height:34px;
-      border-radius:50%;
-      background:none;
-      color:var(--text);
-      border:1px solid var(--border);
-      cursor:pointer;
-      display:grid;
-      place-items:center;
-      flex:0 0 auto;
-      transition:border-color .18s,color .18s;
-    }
-    .play-btn:hover{
-      border-color:var(--accent);
-    }
-    .play-btn svg{
-      width:13px;
-      height:13px;
-      fill:currentColor;
-    }
-    .audio-time{
-      font-size:12px;
-      color:var(--muted);
-      font-variant-numeric:tabular-nums;
-      white-space:nowrap;
-      min-width:36px;
-    }
-    .audio-slider-wrap{
-      flex:1;
-      display:flex;
-      align-items:center;
-      position:relative;
-    }
-    .audio-slider{
-      width:100%;
-      height:2px;
-      -webkit-appearance:none;
-      appearance:none;
-      background:var(--border);
-      border-radius:999px;
-      cursor:pointer;
-      outline:none;
-    }
-    .audio-slider::-webkit-slider-thumb{
-      -webkit-appearance:none;
-      appearance:none;
-      width:12px;
-      height:12px;
-      border-radius:50%;
-      background:var(--accent);
-      cursor:pointer;
-      border:none;
-    }
-    .audio-slider::-moz-range-thumb{
-      width:12px;
-      height:12px;
-      border-radius:50%;
-      background:var(--accent);
-      cursor:pointer;
-      border:none;
-    }
-
-    /* Bottom nav */
     .bar{
       display:flex;
       justify-content:space-between;
@@ -597,13 +485,11 @@
       padding:0 4px;
     }
 
-    /* Panels */
     .module-panel{display:none;}
     .module-panel.active{display:block;}
     .section-panel{display:none;}
     .section-panel.active{display:block;}
 
-    /* Footer */
     footer{
       max-width:var(--max);
       margin:0 auto;
@@ -626,7 +512,7 @@
       .content{padding:24px 20px 26px;}
       .module-tabs{padding:16px 20px 0;}
       .section-tabs{padding:16px 20px;}
-      .audio-panel,.bar{padding:16px;}
+      .bar{padding:16px;}
       footer{padding:20px;}
       .two-col{grid-template-columns:1fr;}
       .brand h1{font-size:11px;}
@@ -635,7 +521,6 @@
 
     @media print{
       header,
-      .audio-panel,
       .bar,
       footer{display:none !important;}
       body{
@@ -658,7 +543,7 @@
       </div>
       <div class="brand-copy">
         <h1>CompTIA A+ · 220-1201</h1>
-        <div class="sub">Module: Motherboards &amp; Connectors</div>
+        <div class="sub">Motherboards &amp; Connectors</div>
       </div>
     </div>
     <div class="controls">
@@ -676,7 +561,7 @@
   <section class="hero">
     <div class="hero-kicker">Study Module</div>
     <h2>Motherboards, storage, ports, and the connectors that hold modern PCs together.</h2>
-    <p>Review the hardware foundations of CompTIA A+ Core 1 with structured lesson cards, quick navigation, and built-in audio for each section.</p>
+    <p>Review the hardware foundations of CompTIA A+ Core 1 with structured lesson cards and simple navigation across ports, internal components, storage, form factors, and legacy interfaces.</p>
   </section>
 
   <div class="wrap">
@@ -687,14 +572,13 @@
 
     <article class="panel" aria-label="Study content">
 
-      <!-- Module Tabs -->
       <div class="module-tabs" role="tablist">
-        <button class="module-tab active" onclick="switchModule('cables',this)">2A — Cables &amp; Connectors</button>
-        <button class="module-tab" onclick="switchModule('motherboards',this)">2B — Motherboards</button>
-        <button class="module-tab" onclick="switchModule('legacy',this)">2C — Legacy Cables</button>
+        <button class="module-tab active" onclick="switchModule('cables',this)">Connections &amp; Ports</button>
+        <button class="module-tab" onclick="switchModule('motherboards',this)">Motherboard Fundamentals</button>
+        <button class="module-tab" onclick="switchModule('legacy',this)">Legacy Interfaces</button>
       </div>
 
-      <!-- ===== LESSON 2A: CABLES & CONNECTORS ===== -->
+      <!-- ===== CONNECTIONS & PORTS ===== -->
       <div class="module-panel active" id="mod-cables">
         <div class="section-tabs" role="tablist">
           <button class="section-tab active" onclick="switchSection('cables','pcs',this)">PC Overview</button>
@@ -707,7 +591,6 @@
           <button class="section-tab" onclick="switchSection('cables','sata',this)">SATA &amp; Molex</button>
         </div>
 
-        <!-- PC Overview -->
         <div class="section-panel active" id="cables-pcs">
           <div class="content">
             <h2>Personal Computers &amp; Case Anatomy</h2>
@@ -737,7 +620,6 @@
           </div>
         </div>
 
-        <!-- USB Connectors -->
         <div class="section-panel" id="cables-usb">
           <div class="content">
             <h2>USB Cables &amp; Connector Types</h2>
@@ -769,7 +651,6 @@
           </div>
         </div>
 
-        <!-- USB Standards -->
         <div class="section-panel" id="cables-usbstandards">
           <div class="content">
             <h2>USB Standards — Speed &amp; Evolution</h2>
@@ -799,7 +680,6 @@
           </div>
         </div>
 
-        <!-- Display Types -->
         <div class="section-panel" id="cables-display">
           <div class="content">
             <h2>Display Technologies</h2>
@@ -847,7 +727,6 @@
           </div>
         </div>
 
-        <!-- Display Components -->
         <div class="section-panel" id="cables-displaycomp">
           <div class="content">
             <h2>Display Components &amp; Attributes</h2>
@@ -881,7 +760,6 @@
           </div>
         </div>
 
-        <!-- HDMI & DisplayPort -->
         <div class="section-panel" id="cables-videocables">
           <div class="content">
             <h2>HDMI &amp; DisplayPort Video Cables</h2>
@@ -926,7 +804,6 @@
           </div>
         </div>
 
-        <!-- Thunderbolt & Lightning -->
         <div class="section-panel" id="cables-thunderbolt">
           <div class="content">
             <h2>Thunderbolt &amp; Lightning Interfaces</h2>
@@ -959,7 +836,6 @@
           </div>
         </div>
 
-        <!-- SATA & Molex -->
         <div class="section-panel" id="cables-sata">
           <div class="content">
             <h2>SATA &amp; Molex Power Connectors</h2>
@@ -996,9 +872,8 @@
           </div>
         </div>
       </div>
-      <!-- END 2A -->
 
-      <!-- ===== LESSON 2B: MOTHERBOARDS ===== -->
+      <!-- ===== MOTHERBOARD FUNDAMENTALS ===== -->
       <div class="module-panel" id="mod-motherboards">
         <div class="section-tabs" role="tablist">
           <button class="section-tab active" onclick="switchSection('motherboards','functions',this)">MB Functions</button>
@@ -1013,7 +888,6 @@
           <button class="section-tab" onclick="switchSection('motherboards','expansion',this)">Expansion Cards</button>
         </div>
 
-        <!-- Motherboard Functions -->
         <div class="section-panel active" id="motherboards-functions">
           <div class="content">
             <h2>Motherboard Functions &amp; Overview</h2>
@@ -1038,7 +912,6 @@
           </div>
         </div>
 
-        <!-- ESD & Safety -->
         <div class="section-panel" id="motherboards-safety">
           <div class="content">
             <h2>Electrical Safety &amp; Electrostatic Discharge (ESD)</h2>
@@ -1063,7 +936,6 @@
           </div>
         </div>
 
-        <!-- CPU Sockets -->
         <div class="section-panel" id="motherboards-cpu">
           <div class="content">
             <h2>CPU Sockets &amp; the Chipset</h2>
@@ -1098,7 +970,6 @@
           </div>
         </div>
 
-        <!-- System Memory -->
         <div class="section-panel" id="motherboards-memory">
           <div class="content">
             <h2>System Memory Slots &amp; RAM</h2>
@@ -1129,7 +1000,6 @@
           </div>
         </div>
 
-        <!-- Storage Interfaces -->
         <div class="section-panel" id="motherboards-storage">
           <div class="content">
             <h2>Motherboard Storage Interfaces</h2>
@@ -1158,7 +1028,6 @@
           </div>
         </div>
 
-        <!-- PCIe & PCI -->
         <div class="section-panel" id="motherboards-pcie">
           <div class="content">
             <h2>PCIe &amp; PCI Expansion Slots</h2>
@@ -1200,7 +1069,6 @@
           </div>
         </div>
 
-        <!-- Form Factors -->
         <div class="section-panel" id="motherboards-formfactors">
           <div class="content">
             <h2>Motherboard Form Factors</h2>
@@ -1227,7 +1095,6 @@
           </div>
         </div>
 
-        <!-- Installation -->
         <div class="section-panel" id="motherboards-installation">
           <div class="content">
             <h2>Motherboard Installation</h2>
@@ -1257,7 +1124,6 @@
           </div>
         </div>
 
-        <!-- Headers & Power -->
         <div class="section-panel" id="motherboards-headers">
           <div class="content">
             <h2>Motherboard Headers &amp; Power Connectors</h2>
@@ -1282,7 +1148,6 @@
           </div>
         </div>
 
-        <!-- Expansion Cards -->
         <div class="section-panel" id="motherboards-expansion">
           <div class="content">
             <h2>Expansion Cards</h2>
@@ -1325,9 +1190,8 @@
           </div>
         </div>
       </div>
-      <!-- END 2B -->
 
-      <!-- ===== LESSON 2C: LEGACY CABLES ===== -->
+      <!-- ===== LEGACY INTERFACES ===== -->
       <div class="module-panel" id="mod-legacy">
         <div class="section-tabs" role="tablist">
           <button class="section-tab active" onclick="switchSection('legacy','dvi',this)">DVI &amp; VGA</button>
@@ -1335,7 +1199,6 @@
           <button class="section-tab" onclick="switchSection('legacy','adapters',this)">Adapter Cables</button>
         </div>
 
-        <!-- DVI & VGA -->
         <div class="section-panel active" id="legacy-dvi">
           <div class="content">
             <h2>DVI &amp; VGA Video Interfaces</h2>
@@ -1373,7 +1236,6 @@
           </div>
         </div>
 
-        <!-- Serial Cables -->
         <div class="section-panel" id="legacy-serial">
           <div class="content">
             <h2>Serial Cables (RS-232) &amp; Legacy Ports</h2>
@@ -1404,7 +1266,6 @@
           </div>
         </div>
 
-        <!-- Adapter Cables -->
         <div class="section-panel" id="legacy-adapters">
           <div class="content">
             <h2>Adapter Cables</h2>
@@ -1441,29 +1302,9 @@
           </div>
         </div>
       </div>
-      <!-- END 2C -->
 
     </article>
 
-    <!-- Audio Player Panel -->
-    <div class="panel audio-panel" aria-label="Audio player">
-      <div class="audio-track-info">
-        <div class="audio-track-label" id="audioLabel">Track 1 — PC Overview</div>
-        <div class="audio-track-sub" id="audioSub">Lesson 2A · Card 1 of 21</div>
-      </div>
-      <div class="audio-controls">
-        <button class="play-btn" id="playBtn" aria-label="Play or pause audio">
-          <svg id="playIcon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-        </button>
-        <span class="audio-time" id="audioTime">0:00</span>
-        <div class="audio-slider-wrap">
-          <input type="range" class="audio-slider" id="audioSlider" min="0" max="100" value="0" step="0.1" aria-label="Seek audio" />
-        </div>
-        <span class="audio-time" id="audioDuration">0:00</span>
-      </div>
-    </div>
-
-    <!-- Bottom nav bar -->
     <div class="panel bar" aria-label="Navigation">
       <div class="group">
         <button class="btn" onclick="goHome()">Return Home</button>
@@ -1482,12 +1323,11 @@
 </main>
 
 <footer>
-  <span>CompTIA A+ 220-1201 · Module </span>
+  <span>CompTIA A+ 220-1201 · Motherboards &amp; Connectors</span>
   <span id="year"></span>
 </footer>
 
 <script>
-  // Theme
   const themeBtn = document.getElementById("themeBtn");
   const saved = localStorage.getItem("kb_theme");
   if (saved === "light" || saved === "dark") {
@@ -1503,104 +1343,33 @@
   document.getElementById("printBtn").addEventListener("click", () => window.print());
   document.getElementById("year").textContent = new Date().getFullYear();
 
-  // All cards in linear order: [module, sectionId, label, lesson]
   const allCards = [
-    ["cables",       "pcs",          "PC Overview",             "2A"],
-    ["cables",       "usb",          "USB Connectors",          "2A"],
-    ["cables",       "usbstandards", "USB Standards",           "2A"],
-    ["cables",       "display",      "Display Types",           "2A"],
-    ["cables",       "displaycomp",  "Display Components",      "2A"],
-    ["cables",       "videocables",  "HDMI & DisplayPort",      "2A"],
-    ["cables",       "thunderbolt",  "Thunderbolt & Lightning", "2A"],
-    ["cables",       "sata",         "SATA & Molex",            "2A"],
-    ["motherboards", "functions",    "MB Functions",            "2B"],
-    ["motherboards", "safety",       "ESD & Safety",            "2B"],
-    ["motherboards", "cpu",          "CPU Sockets",             "2B"],
-    ["motherboards", "memory",       "System Memory",           "2B"],
-    ["motherboards", "storage",      "Storage Interfaces",      "2B"],
-    ["motherboards", "pcie",         "PCIe & PCI",              "2B"],
-    ["motherboards", "formfactors",  "Form Factors",            "2B"],
-    ["motherboards", "installation", "Installation",            "2B"],
-    ["motherboards", "headers",      "Headers & Power",         "2B"],
-    ["motherboards", "expansion",    "Expansion Cards",         "2B"],
-    ["legacy",       "dvi",          "DVI & VGA",               "2C"],
-    ["legacy",       "serial",       "Serial Cables",           "2C"],
-    ["legacy",       "adapters",     "Adapter Cables",          "2C"],
+    ["cables",       "pcs",          "PC Overview",             "Connections & Ports"],
+    ["cables",       "usb",          "USB Connectors",          "Connections & Ports"],
+    ["cables",       "usbstandards", "USB Standards",           "Connections & Ports"],
+    ["cables",       "display",      "Display Types",           "Connections & Ports"],
+    ["cables",       "displaycomp",  "Display Components",      "Connections & Ports"],
+    ["cables",       "videocables",  "HDMI & DisplayPort",      "Connections & Ports"],
+    ["cables",       "thunderbolt",  "Thunderbolt & Lightning", "Connections & Ports"],
+    ["cables",       "sata",         "SATA & Molex",            "Connections & Ports"],
+    ["motherboards", "functions",    "MB Functions",            "Motherboard Fundamentals"],
+    ["motherboards", "safety",       "ESD & Safety",            "Motherboard Fundamentals"],
+    ["motherboards", "cpu",          "CPU Sockets",             "Motherboard Fundamentals"],
+    ["motherboards", "memory",       "System Memory",           "Motherboard Fundamentals"],
+    ["motherboards", "storage",      "Storage Interfaces",      "Motherboard Fundamentals"],
+    ["motherboards", "pcie",         "PCIe & PCI",              "Motherboard Fundamentals"],
+    ["motherboards", "formfactors",  "Form Factors",            "Motherboard Fundamentals"],
+    ["motherboards", "installation", "Installation",            "Motherboard Fundamentals"],
+    ["motherboards", "headers",      "Headers & Power",         "Motherboard Fundamentals"],
+    ["motherboards", "expansion",    "Expansion Cards",         "Motherboard Fundamentals"],
+    ["legacy",       "dvi",          "DVI & VGA",               "Legacy Interfaces"],
+    ["legacy",       "serial",       "Serial Cables",           "Legacy Interfaces"],
+    ["legacy",       "adapters",     "Adapter Cables",          "Legacy Interfaces"]
   ];
 
   const moduleOrder = ["cables", "motherboards", "legacy"];
   let cardIndex = 0;
 
-  // Audio
-  const audio = new Audio();
-  const playBtn = document.getElementById("playBtn");
-  const playIcon = document.getElementById("playIcon");
-  const audioSlider = document.getElementById("audioSlider");
-  const audioTime = document.getElementById("audioTime");
-  const audioDuration = document.getElementById("audioDuration");
-  const audioLabel = document.getElementById("audioLabel");
-  const audioSub = document.getElementById("audioSub");
-
-  const playPath  = "M8 5v14l11-7z";
-  const pausePath = "M6 19h4V5H6v14zm8-14v14h4V5h-4z";
-
-  function loadAudio(idx) {
-    const trackNum = idx + 1;
-    audio.src = `audio/audio${trackNum}.mp3`;
-    audio.load();
-    audioSlider.value = 0;
-    audioTime.textContent = "0:00";
-    audioDuration.textContent = "0:00";
-    playIcon.querySelector("path").setAttribute("d", playPath);
-    updateAudioLabel(idx);
-  }
-
-  function updateAudioLabel(idx) {
-    const card = allCards[idx];
-    audioLabel.textContent = `Track ${idx + 1} — ${card[2]}`;
-    audioSub.textContent = `Lesson ${card[3]} · Card ${idx + 1} of ${allCards.length}`;
-  }
-
-  function formatTime(s) {
-    if (isNaN(s) || s < 0) return "0:00";
-    const m = Math.floor(s / 60);
-    const sec = Math.floor(s % 60);
-    return `${m}:${sec.toString().padStart(2, "0")}`;
-  }
-
-  playBtn.addEventListener("click", () => {
-    if (audio.paused) {
-      audio.play().catch(() => {});
-      playIcon.querySelector("path").setAttribute("d", pausePath);
-    } else {
-      audio.pause();
-      playIcon.querySelector("path").setAttribute("d", playPath);
-    }
-  });
-
-  audio.addEventListener("timeupdate", () => {
-    if (!isNaN(audio.duration) && audio.duration > 0) {
-      audioSlider.value = (audio.currentTime / audio.duration) * 100;
-      audioTime.textContent = formatTime(audio.currentTime);
-    }
-  });
-
-  audio.addEventListener("loadedmetadata", () => {
-    audioDuration.textContent = formatTime(audio.duration);
-  });
-
-  audio.addEventListener("ended", () => {
-    playIcon.querySelector("path").setAttribute("d", playPath);
-    audioSlider.value = 0;
-  });
-
-  audioSlider.addEventListener("input", () => {
-    if (!isNaN(audio.duration) && audio.duration > 0) {
-      audio.currentTime = (audioSlider.value / 100) * audio.duration;
-    }
-  });
-
-  // Navigation
   function switchModule(moduleId, btn) {
     document.querySelectorAll(".module-panel").forEach(p => p.classList.remove("active"));
     document.querySelectorAll(".module-tab").forEach(t => t.classList.remove("active"));
@@ -1611,7 +1380,6 @@
     if (idx !== -1) {
       cardIndex = idx;
       updateCounter();
-      loadAudio(cardIndex);
     }
   }
 
@@ -1635,14 +1403,11 @@
     if (idx !== -1) {
       cardIndex = idx;
       updateCounter();
-      loadAudio(cardIndex);
     }
   }
 
   function goToCard(idx) {
     if (idx < 0 || idx >= allCards.length) return;
-    const wasPlaying = !audio.paused;
-    audio.pause();
     cardIndex = idx;
     const [moduleId, sectionId] = allCards[cardIndex];
 
@@ -1662,8 +1427,6 @@
       if (p.id === moduleId + "-" + sectionId && secTabs[i]) secTabs[i].classList.add("active");
     });
 
-    loadAudio(cardIndex);
-    if (wasPlaying) audio.play().catch(() => {});
     updateCounter();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -1682,14 +1445,9 @@
   document.addEventListener("keydown", (e) => {
     if (e.key === "ArrowRight") nextCard();
     if (e.key === "ArrowLeft") prevCard();
-    if (e.key === " " && e.target === document.body) {
-      e.preventDefault();
-      playBtn.click();
-    }
     if (e.key === "Home") goToCard(0);
   });
 
-  loadAudio(0);
   updateCounter();
 </script>
 </body>
